@@ -208,8 +208,8 @@ footer .words { font-family: var(--mono); letter-spacing: 0.18em; text-transform
 .sp-logo img { height: 84px; width: auto; display: block; filter: drop-shadow(0 8px 24px rgba(167,123,255,.35)); }
 .sp-word { font-family: var(--display); font-weight: 900; font-size: clamp(2.4rem, 8vw, 3.6rem); letter-spacing: 0.1em; line-height: .9; color: #f3ead2; text-transform: uppercase; }
 .sp-word small { display: block; font-family: var(--mono); font-weight: 500; font-size: 0.8rem; letter-spacing: 0.5em; color: var(--muted); margin-top: 8px; }
-.perks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 40px; }
-@media (max-width: 820px) { .perks { grid-template-columns: 1fr; } }
+.perks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 40px auto 0; max-width: 860px; }
+@media (max-width: 680px) { .perks { grid-template-columns: 1fr; } }
 .perk { text-align: center; border: 1px solid var(--line); border-radius: 8px; padding: 24px 22px; background: linear-gradient(180deg, var(--night-2), var(--night)); min-width: 0; }
 .perk.hi { border-color: #5a4210; background: linear-gradient(180deg, #2a1d04, #120d02); }
 .perk .k { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--violet); }
@@ -295,7 +295,6 @@ footer .words { font-family: var(--mono); letter-spacing: 0.18em; text-transform
       </div>
       <div class="perks">
         <article class="perk"><h3>Internship opportunities</h3><p>By <b>Wyntrix Innovations</b>.</p></article>
-        <article class="perk hi"><h3>₹30,000</h3><p>For the <b>top 3 teams</b>.</p></article>
         <article class="perk"><h3>Project funding</h3><p>Got a brilliant idea? Investors are ready to invest in your product <b>on the spot</b>.</p></article>
       </div>
     </div>
